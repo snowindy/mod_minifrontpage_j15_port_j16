@@ -27,7 +27,7 @@
 
 <config>
 	<fields name="params">
-		<fieldset name="basic" label="Article Sources Properties">
+		<fieldset name="source_props" label="Article Sources Properties">
 			
 			<field name="sections" type="text" default="1,3,4" label="Section(s)" description="Section Ids (, separated)"></field>
 			<field name="categories" type="text" default="1,2,25,27,28,29,30,31,32" label="Category(s)" description="Category Ids (, separated)"></field>
@@ -99,7 +99,7 @@
 		   	<field name="fulllink" type="text" default="+ Full Story" label="Full story link text " description="if present a full story link will be added"></field>
 		   	
 		</fieldset>	
-		<fieldset name="basic" label="Display Format">
+		<fieldset name="diplay_format" label="Display Format">
 			
 		   	<field name="columns" type="text" default="3" label="Number of columns" description="How many columns minifrontpage display articles introtext"></field>
 			
@@ -111,7 +111,7 @@
 		</fieldset>	
 		
 		
-		<fieldset name="basic" label="Image Thumbnails">
+		<fieldset name="image_thumbs" label="Image Thumbnails">
 			
 			<field name="thumb_embed" type="radio" default="1" label="Show thumbnails" description="Show / Hide thumbnail image in intro text - just like mosimage does">
 				<option value="0">Hide</option>
