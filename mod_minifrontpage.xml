@@ -9,26 +9,17 @@
 	<authorUrl>introdes.ru</authorUrl>
 	<version>portJ16_1.2.2</version>
 	<description>MODULE : MINIFRONTPAGE</description>
-	<files>
-	  <filename module="mod_jmonoslideshow">mod_jmonoslideshow.php</filename>
-	  <filename>dataFileProducer.php</filename>
-	  <filename>index.html</filename>
-	  <folder>assets</folder>
-	  <folder>tmpl</folder>
-	  <folder>default_config</folder>
-	</files>
 	
-
-<files>
-	<filename module="mod_minifrontpage">mod_minifrontpage.php</filename>
-	<filename>index.html</filename>
-	<filename>changelog_and_upgrade.txt</filename>
-	<filename>helper.php</filename>	
-	<filename>tmpl/default.php</filename>
-	<filename>tmpl/index.html</filename>
-	<folder>css</folder>
-	<folder>images</folder>
-</files>
+	<files>
+		<filename module="mod_minifrontpage">mod_minifrontpage.php</filename>
+		<filename>index.html</filename>
+		<filename>changelog_and_upgrade.txt</filename>
+		<filename>helper.php</filename>	
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+	</files>
 
 	<languages>
 		<language tag="en-GB">language/en-GB/en-GB.mod_minifrontpage.ini</language>
