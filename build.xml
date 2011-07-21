@@ -1,0 +1,23 @@
+<project name="Mini Front Page Joomla module" default="dist" basedir=".">
+    <description>
+        Mini Front Page Joomla module distribution builder
+    </description>
+	
+  <property name="dist"  location="dist"/>
+
+  <target name="init">
+    <mkdir dir="${dist}"/>
+  </target>
+
+  <target name="dist" depends="clean, init"
+        description="generate the distribution" >
+  	<zip destfile="${dist}/mod_minifrontpage_j15_port_j16.zip"
+  	       basedir="."
+  	       excludes="dist/**, .gitignore, build.xml, .project, .git/**"
+  	  />
+  </target>
+
+  <target name="clean" description="clean up" >
+    <delete dir="${dist}"/>
+  </target>
+</project>
