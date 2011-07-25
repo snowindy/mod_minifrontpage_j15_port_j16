@@ -50,7 +50,8 @@ class modMiniFrontPageHelper {
 				break;
 		}
 
-		$access 	= !$mainframe->getCfg( 'shownoauth' );
+		$app    = &JFactory::getApplication();
+		$access 	= !$app->getCfg( 'shownoauth' );
 		$nullDate = $database->getNullDate();
 		jimport('joomla.utilities.date');
 		$date = new JDate();

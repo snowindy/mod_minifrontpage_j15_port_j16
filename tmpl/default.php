@@ -68,7 +68,8 @@ if ( $num_intro ) {
 					$date = $row->created;
 					break;
 			}
-			echo JHTML::_('date', $date, $params->get( 'date_format' ), $mainframe->getCfg('offset')); 
+			$app    = &JFactory::getApplication();
+			echo JHTML::_('date', $date, $params->get( 'date_format' ), $app->getCfg('offset')); 
 			echo '</span>'; 
 		} 
 			if($show_author_type) {
