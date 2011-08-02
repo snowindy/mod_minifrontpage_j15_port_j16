@@ -13,7 +13,7 @@
         description="generate the distribution" >
   	<zip destfile="${dist}/mod_minifrontpage_j15_port_j16.zip"
   	       basedir="."
-  	       excludes="dist/**, .gitignore, build.xml, .project, .git/**"
+  		excludes="dist/**, .gitignore, build.xml, .project, .git/**, .settings/**"
   	  />
   </target>
 
